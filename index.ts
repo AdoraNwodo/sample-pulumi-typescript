@@ -4,10 +4,10 @@ import * as resources from "@pulumi/azure-native/resources";
 import * as storage from "@pulumi/azure-native/storage";
 
 const stack = pulumi.getStack();
-const resourceGroupName = `cityjs-app-resourcegroup-${stack}`;
-const appServicePlanName = `cityjs-app-plan-${stack}`;
-const storageAccountName = `cityjsstore${stack}`;
-const webAppName = `cityjs-app-${stack}`;
+const resourceGroupName = `gitex-app-resourcegroup-${stack}`;
+const appServicePlanName = `gitex-app-plan-${stack}`;
+const storageAccountName = `gitexstore${stack}`;
+const webAppName = `gitex-app-${stack}`;
 
 // Create an Azure Resource Group
 const resourceGroup = new resources.ResourceGroup(resourceGroupName, {
